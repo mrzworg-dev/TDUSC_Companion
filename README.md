@@ -1,9 +1,9 @@
-# TDUSC Companion - User Data Suite 2.7.1
+# TDUSC Companion - User Data Suite 2.7.3
 
 ## Getting started
 
 Extract the ZIP into a writable folder and run
-`TDUSC_Companion_v2.7.1.exe`. Python is not required. Keep the included
+`TDUSC_Companion_v2.7.3.exe`. Python is not required. Keep the included
 files together. On first launch, select the game user folder containing
 `UserSettings.cfg` and `UserOptions.cfg`. Preferences are saved in
 `settings.ini` beside the executable.
@@ -40,7 +40,7 @@ preferences. Save All Settings stores your choices.
 
 ## Included files
 
-- `TDUSC_Companion_v2.7.1.exe`: Windows application.
+- `TDUSC_Companion_v2.7.3.exe`: Windows application.
 - `carlist.db`: vehicle names.
 - `howto.md`: instructions used by the Howto tab.
 - `livery_icon.png`: application icon.
@@ -170,6 +170,12 @@ Received notes are displayed as plain text before replacement and saved with the
 Choose Author notes folder in Settings before saving notes. Livery notes are stored in its liveries subfolder; ghost notes in ghosts, grouped by game folder. The selected folder must be outside GAMEDATA. Earlier preview note folders are not migrated.
 
 
+## Automatic first-start folders
+
+Create required folders automatically is enabled by default in first-start setup. After selecting a valid game user folder, the application creates TDUSC Companion Data beside its executable with Liveries/Backup, Ghosts/Backup, Ghosts/Catalogue and Author Notes subfolders. These paths are saved to Settings; existing configured paths and folder contents are preserved. Disable the checkbox to choose optional paths manually in Settings. No folders are created when setup is cancelled or the game user folder is invalid. If the application directory is not writable, setup reports the error and lets you retry or disable automatic creation.
+
+After initial setup, use Settings > Paths & Directories > Create required folders automatically to create the same folders and fill empty optional paths. Existing configured paths remain unchanged. Click Save to persist the paths.
+
 ## Download
 
-Get the compiled Windows ZIP from [Releases](https://github.com/mrzworg-dev/TDUSC_Companion/releases/latest). This repository contains documentation and binary releases. Application source is maintained separately in a private repository.
+Get the Windows ZIP from https://github.com/mrzworg-dev/TDUSC_Companion/releases/latest. Source is maintained separately in a private repository.

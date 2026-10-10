@@ -1,3 +1,14 @@
+## 2.7.3 (2026-10-10)
+
+- Add Create required folders automatically under Settings > Paths & Directories for use after initial setup.
+- Fill empty optional folder fields while preserving configured paths; use the normal Save action to persist changes.
+
+## 2.7.2 (working preview)
+
+- Add an enabled-by-default Create required folders automatically checkbox to first-start setup.
+- Create optional livery/ghost backup, ghost catalogue and author notes folders under TDUSC Companion Data beside the executable, then save their Settings paths.
+- Preserve configured paths and existing files; report creation failures without closing setup.
+
 ## 2.7.1 (2026-10-10)
 
 - Rename the application to TDUSC Companion, with TDUSC Companion - User Data Suite in the main window title and documentation headings.
